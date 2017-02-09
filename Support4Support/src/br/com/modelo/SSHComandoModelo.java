@@ -1,4 +1,4 @@
-package modelo;
+package br.com.modelo;
 
 public class SSHComandoModelo {
 	private int idSSHModelo, ordem;

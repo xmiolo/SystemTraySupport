@@ -1,9 +1,4 @@
-package modelo;
-
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Properties;
+package br.com.modelo;
 
 public class SSHModelo {
 	private String host, userName, password, name;

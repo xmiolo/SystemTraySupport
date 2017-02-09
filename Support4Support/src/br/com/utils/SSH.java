@@ -1,4 +1,4 @@
-package br.com;
+package br.com.utils;
 
 import java.io.BufferedReader;
 import java.io.IOException;

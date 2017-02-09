@@ -1,4 +1,4 @@
-package br.com;
+package br.com.utils;
 
 import java.awt.MenuItem;
 import java.awt.PopupMenu;
@@ -12,8 +12,8 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import br.com.dao.SSHDao;
-import modelo.SSHComandoModelo;
-import modelo.SSHModelo;
+import br.com.modelo.SSHComandoModelo;
+import br.com.modelo.SSHModelo;
 
 public class SystemTryMenus {
 	public static void addMenus(PopupMenu popupMenu, TrayIcon trayIcon) {

@@ -12,8 +12,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-import modelo.SSHComandoModelo;
-import modelo.SSHModelo;
+import br.com.modelo.SSHComandoModelo;
+import br.com.modelo.SSHModelo;
+
 
 public class SSHDao {
 

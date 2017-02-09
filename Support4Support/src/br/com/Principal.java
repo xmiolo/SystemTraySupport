@@ -4,11 +4,13 @@ import java.awt.AWTException;
 import java.awt.Image;
 import java.awt.PopupMenu;
 import java.awt.SystemTray;
-import java.awt.Toolkit;
 import java.awt.TrayIcon;
 import java.io.IOException;
 
 import javax.imageio.ImageIO;
+
+import br.com.utils.SystemTryMenus;
+
 
 public class Principal {
 
@@ -18,7 +20,7 @@ public class Principal {
 			return;
 		}
 		SystemTray systemTray = SystemTray.getSystemTray();
-		Image image = Toolkit.getDefaultToolkit().getImage("src/images/telemarketer.png");
+		//Image image = Toolkit.getDefaultToolkit().getImage("src/images/telemarketer.png");
 		Image im = null;
 		try {
 			im = ImageIO.read( Principal.class.getResource("/images/telemarketer.png" ) );
